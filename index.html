@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clown - Social Network</title>
+    <link rel="stylesheet" href="./style.css">
+    <link media="(max-width: 896px)" rel="stylesheet" href="./mobile.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram">
+        <div class="search-container">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" placeholder="Search">
+        </div>
+        <ul>
+            <li><ion-icon name="home-outline"></ion-icon></li>
+            <li><ion-icon name="chatbubble-outline"></ion-icon></li>
+            <li><ion-icon name="add-circle-outline" id="addIcon"></ion-icon></li>
+            <li><ion-icon name="compass-outline"></ion-icon></li>
+            <li><ion-icon name="heart-outline" id="heartIcon"></ion-icon></li>
+            <li><picture><img src="" alt=""></picture></li>
+        </ul>
+    </nav>
+
+    <aside class="profile-container">
+        <img id="profilePhoto" src="" alt="profile photo">
+        <div class="profile-info">
+            <div id="profileName">
+                <h1 id="profileName"></h1>
+            </div>
+            <div class="statistics">
+                <p><strong>31</strong><span> posts</span></p>
+                <p><strong>59</strong><span> followers</span></p>
+                <p><strong>128</strong><span> following</span></p>
+            </div>
+        </div>
+    </aside>
+
+    <main id="contentContainer">
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
